@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: 'calibri';
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    width: 600px;
+    margin: 0;
+    padding: 10px;
+    border: 2px solid gray;
+}
+h4{
+    text-align: center;
+    margin-top: -5px;
+}
+.dis{
+    margin-top: -15px;
+}
+.head{
+    justify-content: center;
+    text-align: center;
+}
+.subject{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.marks{
+    display:flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.discription{
+    margin-top: -10px;
+    text-align: center;
+}
+.qtype{
+    text-align: center;
+    align-items: center;
+}
+.mark{
+    text-align: right;
+    margin-top: -35px;
+}
+.question {
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+tr{
+    justify-content:space-between;
+}
+td{
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+}
