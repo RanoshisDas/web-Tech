@@ -1,63 +1,97 @@
-body{
+body {
     margin: 0;
-    font-family: 'calibri';
+    font-family: 'Calibri', sans-serif;
     width: 100%;
     display: flex;
     justify-content: center;
-    
+    background-color: #f4f4f4;
 }
-#container{
-    width: 700px;
-    margin: 0;
-    padding: 10px;
-    justify-content: center;
-}
-center{
-    background-color: rgba(240, 144, 61, 0.761);
-    margin-top: -22px;
-    padding: 0;
+
+#container {
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
     border: 2px solid gray;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
-img{
-    border: 2px solid black;
+
+.title {
+    width: 100%;
+    background-color: #1e88e5;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
 }
-header{
-  
+
+header {
     display: flex;
-    margin: 10px;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 2px solid gray;
 }
-#name{
-    padding: 10px;
+
+header img {
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-right: 20px;
 }
-p{
-    font-size: 20px;
-    text-align: justify;
+
+p, li {
+    font-size: 18px;
 }
-#Education{
-    margin: 10px;
-}
-table,tr{
+
+table {
     width: 100%;
     border-collapse: collapse;
-    border: 2px solid black;
-    border-spacing: 5px;
+    margin: 10px 0;
 }
-td,th{
-    padding: 15px;
+
+th, td {
     border: 1px solid black;
+    padding: 12px;
     text-align: center;
 }
-th{
-    background-color: #cccc;
+
+th {
+    background-color: #ccc;
 }
-li{
-    font-size: 20px;
+
+blockquote {
+    background: #e5f1fc;
+    border-left: 5px solid #1e88e5;
+    padding: 10px;
+    font-style: italic;
 }
-li a{
-    color: black;
-    font-weight: bolder;
+
+#Projects a {
+    font-weight: bold;
+    color: #1e88e5;
+    text-decoration: none;
+    transition: color 0.3s;
 }
-h4{
-    font-family:'Calibri';
-    color:blue ;
+
+#Projects a:hover {
+    color: #d35400;
+    text-decoration: underline;
+}
+
+/* Contact links styling */
+.contact-links {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.contact-links a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.contact-links a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 5px;
 }
