@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: 'calibri';
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+#container{
+    width: 700px;
+    margin: 0;
+    padding: 10px;
+    justify-content: center;
+}
+center{
+    background-color: rgba(240, 144, 61, 0.761);
+    margin-top: -22px;
+    padding: 0;
+    border: 2px solid gray;
+}
+img{
+    border: 2px solid black;
+}
+header{
+  
+    display: flex;
+    margin: 10px;
+}
+#name{
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+#Education{
+    margin: 10px;
+}
+table,tr{
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    border-spacing: 5px;
+}
+td,th{
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
+th{
+    background-color: #cccc;
+}
+li{
+    font-size: 20px;
+}
+li a{
+    color: black;
+    font-weight: bolder;
+}
+h4{
+    font-family:'Calibri';
+    color:blue ;
+}
